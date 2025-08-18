@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+.oswald-font {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.arimo-font {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+
+}
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+}
+video {
+    pointer-events: none !important;
+}
+.navbar {
+    background: rgba(20, 20, 20, 0.712);
+    backdrop-filter: blur(7px);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    color: white !important;
+    text-decoration: none !important;
+    padding-top: 5px;
+}
+.navbar #navbar-title {
+    font-size: x-large;
+    cursor: default;
+    pointer-events: none !important;
+}
+.navbar a {
+    color: white !important;
+    text-decoration: none !important;
+}
+body {
+    overflow-x: hidden;
+    color: white;
+}
+.intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
